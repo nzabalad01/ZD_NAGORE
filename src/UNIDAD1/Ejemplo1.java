@@ -23,6 +23,13 @@ public class Ejemplo1 {
 		System.out.println("¿Aprobado? " + aprobado);
 		System.out.println("Contador: "+ contador);
 		
+		int iva = 21;
+		double precios = 100;
+		System.out.println("El precio sin iva es:"+ precios);
+		System.out.println("IVA:" +iva);
+		precios=precios+(precios*iva/100);
+		
+		
 	
 		}
 		
