@@ -20,6 +20,9 @@ public class Rectangulo {
 			return base*altura;
 		}
 		
+		public double calcularPerimetro() {
+			return 2*(base*altura);
+		}
 		public static void main(String[] args) {
 			// 
 			
@@ -30,6 +33,7 @@ public class Rectangulo {
 			
 			System.out.printf("El área de mi parcela es de %.2f metros cuadrados", miParcela.calcularArea());
 			System.out.println();
+			
 			
 			String s = "Hola Mundo.";
 			System.out.println(s.replaceAll("o","a")); // usando regex -> " Hola Java "
