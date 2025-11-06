@@ -2,7 +2,7 @@ package UT03;
 
 import java.util.Scanner;
 
-public class NumeroSigno {
+public class Ejercio1_Apdo1_7 {
 
 	public static void main(String[] args) {
 		

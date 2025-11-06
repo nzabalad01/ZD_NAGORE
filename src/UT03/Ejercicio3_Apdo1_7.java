@@ -2,7 +2,7 @@ package UT03;
 
 import java.util.Scanner;
 
-public class Nota {
+public class Ejercicio3_Apdo1_7 {
 	
 	public static void main(String[] args) {
 	
