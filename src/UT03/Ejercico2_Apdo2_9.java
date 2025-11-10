@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class Ejercico2_Apdo2_9 {
 
-	public static void main(String[]args);
+	public static void main(String[]args) {
 		Scanner teclado = new Scanner(System.in);
+		int contador=0;
 		System.out.println("Intreoduce una palabra. Contaré cuantas "a" contiene: ");
 		String palabra = teclado.nextLine();
 		

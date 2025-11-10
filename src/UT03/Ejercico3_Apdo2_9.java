@@ -21,10 +21,14 @@ public class Ejercico3_Apdo2_9 {
 			String palabra = teclado.nextLine();
 			if (palabra.equalsIgnoreCase(contraseña)){
 				acierto=true;
+				System.out.println("Enhorabuena! Has acertado!");
+			} else {
+				System.out.println("Has fallado! Intentalo otra vez: ");
+				intentos++;
 			}
-			System.out.println("Has fallado! Intentalo otra vez: ");
-			intentos++;
 		}
+		System.out.println("F I N.");
 		
+		teclado.close();
+	}
 }
-
