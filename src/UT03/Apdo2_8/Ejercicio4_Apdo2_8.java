@@ -1,4 +1,4 @@
-package UT03;
+package UT03.Apdo2_8;
 
 import java.util.Scanner;
 
@@ -14,6 +14,6 @@ public class Ejercicio4_Apdo2_8 {
 			opcion=teclado.nextInt();
 		} while(opcion!=2);
 		System.out.println("Saliendo del menú... adiós!!");
-		
+		teclado.close();
 	}	
 }

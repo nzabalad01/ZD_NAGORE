@@ -1,8 +1,8 @@
-package UT03;
+package UT03.Apdo1_7;
 
 import java.util.Scanner;
 
-public class Ejercio1_Apdo1_7 {
+public class Ejercicio1_Apdo1_7 {
 
 	public static void main(String[] args) {
 		
@@ -11,7 +11,7 @@ public class Ejercio1_Apdo1_7 {
 		System.out.println("Introduce número");
 		int número = teclado.nextInt();
 		
-		if (número>0) {
+		if (número > 0) {
 			 System.out.println("El número introducido es positivo");
 			} else if (número==0) {
 			 System.out.println("El número introducido es igual a 0");
