@@ -6,9 +6,7 @@ public class ConversionesUnidades {
 
 
 		public static void main(String[] args) {
-			/* Escribe un programa que pida un número de grados Celsius y 
-			 * los convierta a Fahrenheit, mostrando el resultado.
-			*/
+			
 			Scanner teclado = new Scanner(System.in);
 			
 			System.out.println("Introduce la temperatura en grados Celsius: ");

@@ -1,28 +1,24 @@
 package UT03;
 
-import java.until.Scanner;
+import java.util.Scanner;
 
 public class NumeroSigno {
 
 	public static void main(String[] args) {
-		java.util.Scanner teclado = new Scanner(System.in);
 		
-		System.out.println("Introduce número");
-		int número = teclado.nextInt();
+		Scanner teclado = new Scanner(System.in);
+		String palabra;
+		do {
+			System.out.println("Introduce una palabra: ");
+			palabra=teclado.nextLine();
 		
-		if (número>0) {
-
-			 System.out.println("El número introducido es positivo");
-			} else if (número = 0) {
-			 System.out.println("El número introducido es igual a 0");
-			} else if (número < 0) {
-			 System.out.println("El número introducido es negativo");
-			} 
-			 
-		}
-		teclado close()}
+			if((palabra.contains("x")) || (palabra.contains("X"))) {
+					continue;
+			}
+			System.out.println("Tu palabra no contiene 'x' -> "+palabra);
+		}while (!palabra.equals("salir"));
+		System.out.println("Has introducido 'salir'...adiós!");
 	}
-		
-
+}
 
 
