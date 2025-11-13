@@ -2,10 +2,9 @@ package UT03;
 
 import java.util.Scanner;
 
-public class NumeroSigno {
+public class Ejercicio2_Apdo3_8 {
 
 	public static void main(String[] args) {
-		
 		Scanner teclado = new Scanner(System.in);
 		String palabra;
 		do {
@@ -20,5 +19,3 @@ public class NumeroSigno {
 		System.out.println("Has introducido 'salir'...adiós!");
 	}
 }
-
-
