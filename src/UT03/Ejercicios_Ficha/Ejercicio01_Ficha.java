@@ -2,7 +2,7 @@ package UT03.Ejercicios_Ficha;
 
 import java.util.Scanner;
 
-public class Ejercicio1_Ficha {
+public class Ejercicio01_Ficha {
 
 	
 	public static void main(String[] args) {
