@@ -4,45 +4,52 @@ import java.util.Scanner;
 
 public class Ejercicio14_Ficha {
 	
+	final static int DESCUENTO = 8;
+	
 	public static void main(String[] args) {
+		
 		Scanner teclado = new Scanner(System.in);
+		double analisis1 = 25.00;
+		double analisis2 = 36.00;
+		double analisis3 = 50.00;
 		
-		System.out.println("Introduce un tipo de análisis (1, 2 o 3): ");
-		  int tipo = teclado.nextInt();
-
-		    double precio;
-		    
-		       switch (tipo) {
-		           case 1:
-		               precio = 25.00;
-		               break;
-		           case 2:
-		               precio = 36.00;
-		               break;
-		           case 3:
-		               precio = 50.00;
-		               break;
-		           default:
-		               precio = -1;
-		        }
-
-		        if (precio != -1) {
-		            System.out.print("¿El cliente es afiliado? (s/n): ");
-		            teclado.nextLine(); // limpiar buffer
-		            String afiliado = teclado.nextLine().toLowerCase();
-
-		            double precioFinal = precio;
-
-		            if (afiliado.equals("s")) {
-		                precioFinal = precio - precio * 0.08; // descuento del 8%
-		            }
-
-		            System.out.println("El precio final del análisis es: " + precioFinal + " €");
-		        } else {
-		            System.out.println("Tipo de análisis no válido.");
-		        }
-
-		        teclado.close();
-		   }
-		
+		System.out.println("********** BIENVENIDO A LA CLÍNICA VETERINARIA **********");
+		System.out.println();
+		System.out.println("¿Estás afiliado a nuestra clínica? (S o N)");
+		String cadena = teclado.nextLine();
+		if (cadena.charAt(0) == 'S' || cadena.charAt(0) == 's') {
+			analisis1=analisis1-(analisis1*DESCUENTO/100);
+			analisis2=analisis2-(analisis2*DESCUENTO/100);
+			analisis3=analisis2-(analisis3*DESCUENTO/100);
+		}
+		int opcion=0;
+		do {
+			System.out.println();		
+			System.out.println("Selecciona un tipo de análisis:");
+			System.out.println("1. Tipo de análisis 1.");
+			System.out.println("2. Tipo de análisis 2.");
+			System.out.println("3. Tipo de análisis 3.");
+			System.out.println("4. Salir.");
+			opcion=teclado.nextInt();
+			
+			switch(opcion) {
+			case 1: 
+					System.out.println("El precio del análisis tipo 1 es de: "+analisis1);
+				break;
+			case 2:
+					System.out.println("El precio del análisis tipo 2 es de: "+analisis2);
+				break;
+			case 3:
+					System.out.println("El precio del análisis tipo 3 es de: "+analisis3);
+				break;
+			case 4: 
+				System.out.println("¡Hasta la próxima!");
+				break;
+			default:
+				System.out.println("No has introducido una opción válida.");
+				break;
+			}
+		} while(opcion!=4);
+		teclado.close();
+	}
 }
