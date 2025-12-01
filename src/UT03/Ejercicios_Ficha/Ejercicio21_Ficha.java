@@ -4,10 +4,8 @@ import java.util.Scanner;
 
 public class Ejercicio21_Ficha {
 
-	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Tipo de vehiculo (P=pequeño, M=mediano, G=grande): ");
 		String tipo = teclado.nextLine().toUpperCase();
