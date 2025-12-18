@@ -2,7 +2,7 @@ package UT03.Actividad_Ascensor;
 
 import java.util.Scanner;
 
-public class Simular_Ascenor {
+public class Ascensor {
 	
 	private int plantaActual;
 	private boolean puertaAbierta;
