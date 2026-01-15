@@ -1,8 +1,8 @@
-package UT04.Apdo9_Ej1.Apdo9_Ej2;
+package UT04.Apdo09.Ej2;
 
-import UT04.Apdo9_Ej1.Apdo9_Ej2.Vehiculo;
+import UT04.Apdo09.Ej2.Vehiculos;
 
-public class Coche extends Vehiculo {
+public class Coche extends Vehiculos {
 	
 	public void arrancar() {
 		System.out.println("Brrrrrrrrrmmmmmmmmmmm.");

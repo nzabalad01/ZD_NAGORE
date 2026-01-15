@@ -1,6 +1,6 @@
-package UT04.Apdo9_Ej1.Apdo9_Ej2;
+package UT04.Apdo09.Ej2;
 
-public class Vehiculo {
+public class Vehiculos {
 	
 	private int velocidad=0;
 	
@@ -15,7 +15,4 @@ public class Vehiculo {
 	public int getVelocidad() {
 		return velocidad;
 	}
-	
-	
-
 }

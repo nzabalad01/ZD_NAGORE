@@ -1,8 +1,8 @@
-package UT04.Apdo9_Ej1.Apdo9_Ej2;
+package UT04.Apdo09.Ej2;
 
-import UT04.Apdo9_Ej1.Apdo9_Ej2.Vehiculo;
+import UT04.Apdo09.Ej2.Vehiculos;
 
-public class Bicicleta extends Vehiculo{
+public class Bicicleta extends Vehiculos{
 
 	public void empujar() {
 		System.out.println("Corre, corre, súbe!!!!.");
@@ -15,5 +15,4 @@ public class Bicicleta extends Vehiculo{
 	public void quitarCandado() {
 		System.out.println("Bicicleta liberada. Candado retirado.");
 	}
-	
 }

@@ -1,4 +1,7 @@
-package UT04.Apdo9_Ej1.Apdo9_Ej2;
+package UT04.Apdo09.Ej2;
+
+import UT04.Apdo09.Ej2.Bicicleta;
+import UT04.Apdo09.Ej2.Coche;
 
 public class Apdo9_Ej2 {
 
