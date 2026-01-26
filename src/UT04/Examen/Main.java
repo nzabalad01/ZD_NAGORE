@@ -27,7 +27,6 @@ public class Main {
 		
 		System.out.println("================================");
 	
-		
 		v1.arrancar();
 		System.out.println("----------------------------");
 		coche1.arrancar("Llave");
@@ -35,9 +34,6 @@ public class Main {
 		moto1.arrancar(true);
 		moto1.arrancar(false);
 		
-		
 	}
 	
-	
-
 }

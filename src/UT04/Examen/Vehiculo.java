@@ -6,8 +6,6 @@ public class Vehiculo {
 	protected int velocidadMaxima;
 	protected boolean enMarcha;
 	
-	
-	
 	public Vehiculo(String marca, int velocidadMaxima, boolean enMarcha) {
 		super();
 		this.marca = marca;
@@ -15,7 +13,6 @@ public class Vehiculo {
 		this.enMarcha = enMarcha;
 	}
 
-	
 	public Vehiculo(String marca) {
 		super();
 		this.marca = marca;
@@ -23,38 +20,30 @@ public class Vehiculo {
 		this.enMarcha = false;
 	}
 
-	
-
 	public String getMarca() {
 		return marca;
 	}
-
 
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
 
-
 	public int getVelocidadMaxima() {
 		return velocidadMaxima;
 	}
-
 
 	public void setVelocidadMaxima(int velocidadMaxima) {
 		this.velocidadMaxima = velocidadMaxima;
 	}
 
-
 	public boolean isEnMarcha() {
 		return enMarcha;
 	}
-
 
 	public void setEnMarcha(boolean enMarcha) {
 		this.enMarcha = enMarcha;
 	}
 
-	
 	public void arrancar() {
 		enMarcha = true;
 		System.out.println("El vehículo ha arrancado.");

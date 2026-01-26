@@ -22,7 +22,6 @@ public class Coche  extends Vehiculo{
 		}
 	}
 
-
 	public void arrancar(String modo) {
 		super.arrancar();
 		 if (modo == "Llave") {
@@ -30,11 +29,6 @@ public class Coche  extends Vehiculo{
 		 } else if (modo == "Botón") {
 			 System.out.println("Arrancando el coche con botón.");
 		 }
-	}
-	
-	
-	
-	
-	
+	}	
 }
 

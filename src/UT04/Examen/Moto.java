@@ -23,7 +23,6 @@ public class Moto extends Vehiculo {
 		}
 	}
 
-	
 	public void arrancar(boolean caballete) {
 		super.arrancar();
 		if (caballete == true) {
@@ -32,8 +31,4 @@ public class Moto extends Vehiculo {
 			System.out.println("La moto ha arrancado correctamente.");
 		}
 	}
-	
-
-	
-
 }
