@@ -1,8 +1,8 @@
 package UT05;
 
-import java.util.Iterator;
+import java.util.Scanner;
 
-public class Ejercicio2 {
+public class Ejercicio_2 {
 	public static void main(String[] args) {
 		/*Escribe un programa que tenga un array con 5 nombres de compañeros de clase (puedes ponerlos directamente en el código).
 		 * El programa debe mostrar los nombres en el orden en que fueron introducidos.
