@@ -1,4 +1,4 @@
-package UT05.Ficha_Avanzada;
+package UT05.Arrays.Ficha_Avanzada;
 
 /**Dado un array de notas enteras (redondeadas): int[] notas = {5, 8, 5, 9, 5, 8, 10, 2};
 *Crea un algoritmo que determine cuál es la nota más frecuente (La Moda).

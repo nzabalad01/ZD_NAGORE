@@ -1,4 +1,4 @@
-package UT05.Ficha_Avanzada;
+package UT05.Arrays.Ficha_Avanzada;
 
 /**Usando los arrays del Reto 2 (nombres y notas):
 *Implementa el Algoritmo de la Burbuja para ordenar las notas de Mayor a Menor.

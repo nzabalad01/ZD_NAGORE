@@ -1,4 +1,4 @@
-package UT05.Ficha_Inicial_Ejercicios;
+package UT05.Arrays.Ficha_Inicial_Ejercicios;
 /**
  * Crea un array con 20 números enteros (puedes ponerlos a mano o generarlos).
  * Recórrelo y cuenta cuántos números son pares y cuántos son impares.

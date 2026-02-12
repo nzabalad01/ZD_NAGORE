@@ -1,4 +1,4 @@
-package UT05.Ficha_Inicial_Ejercicios;
+package UT05.Arrays.Ficha_Inicial_Ejercicios;
 /*
  * @author Andrés Valverde
  */

@@ -1,4 +1,4 @@
-package UT05.Ficha_Avanzada;
+package UT05.Arrays.Ficha_Avanzada;
 
 /**Tienes un array parcialmente lleno y ordenado: [2.0, 4.5, 7.0, 9.0, -1.0, -1.0].
 *El usuario quiere insertar la nota 6.5.

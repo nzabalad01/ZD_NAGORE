@@ -1,4 +1,4 @@
-package UT05.Ficha_Avanzada;
+package UT05.Arrays.Ficha_Avanzada;
 
 /**Declara dos arrays:
 *String[] nombres = {"Ana", "Luis", "Pepe", "Maria", "Juan"};
