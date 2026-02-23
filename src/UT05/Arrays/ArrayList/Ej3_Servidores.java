@@ -6,6 +6,7 @@ import java.util.List;
 public class Ej3_Servidores {
 	
 	public static void main(String[] args) {
+		
 		/*Ejercicio 3: Fusión de Servidores
 		 * Tienes dos listas de usuarios (Strings):
 		 * servidorA: "Juan", "Ana", "Pedro", "Luis"

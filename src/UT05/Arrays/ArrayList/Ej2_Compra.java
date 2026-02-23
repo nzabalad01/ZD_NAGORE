@@ -4,13 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Ej2_Compra {
+	
+	public static void main(String[] args) {
+		
 	/*Java no permite listas de primitivos (int, double). Debemos usar "Wrappers".
 
 	Declara una ArrayList<Double> llamada precios.
 	Añade los precios: 12.50, 23.55, 9.99.
 	Añade el precio 45.00 en la primera posición (índice 0), desplazando al resto.
 	Recorre la lista con un bucle for-each y calcula el total de la compra.*/
-	public static void main(String[] args) {
 	
 		List<Double> precios = new ArrayList<>();
 		

@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Ej1_Playlist {
+	
+	public static void main(String[] args) { 
+		
 	/*Crea una ArrayList<String> llamada playlist.
 
 	Añade manualmente 5 canciones (Títulos).
@@ -12,7 +15,6 @@ public class Ej1_Playlist {
 	La primera canción ya la has escuchado. Elimínala.
 	Imprime: "Actualmente hay [n] canciones en la cola".*/
 	
-	public static void main(String[] args) {
 	List<String> playlist = new ArrayList<>();
 	
 	playlist.add("Esclava");
