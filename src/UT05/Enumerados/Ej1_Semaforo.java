@@ -1,4 +1,4 @@
-package UT05.Arrays.Enumerados;
+package UT05.Enumerados;
 
 public class Ej1_Semaforo {
 
