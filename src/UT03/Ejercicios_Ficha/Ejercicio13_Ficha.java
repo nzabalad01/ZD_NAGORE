@@ -1,4 +1,4 @@
-package UT03.Ejercicios_Ficha;
+/**package UT03.Ejercicios_Ficha;
 
 import java.util.Scanner; 
 
@@ -52,5 +52,5 @@ public class Ejercicio13_Ficha {
 		teclado.close();
 	}
 
-}
+}*/
 

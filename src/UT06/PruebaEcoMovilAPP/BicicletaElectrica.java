@@ -4,7 +4,7 @@ public class BicicletaElectrica extends VehiculoElectrico{
 
 	   boolean tienePedales;
 
-	   public BicicletaElectrica(String marca, String modelo, int autonomia) {
+	   public BicicletaElectrica(String marca, String modelo, int autonomia, boolean pedales) {
 		super(marca, modelo, autonomia);
 		 this.tienePedales = tienePedales;
 		// TODO Auto-generated constructor stub
