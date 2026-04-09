@@ -1,0 +1,2 @@
+El gasto total en salarios es de: 12450.75 €
+El empleado con mayor Salario es: Elena Gomez con 3500.0 €
