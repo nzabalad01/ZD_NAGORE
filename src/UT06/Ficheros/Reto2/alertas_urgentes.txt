@@ -1,0 +1,2 @@
+[2026-03-21 09:12:05] [ERROR] Base de datos no responde (Timeout).
+[2026-03-21 10:01:45] [CRITICAL] Caida general del sistema de ficheros.
